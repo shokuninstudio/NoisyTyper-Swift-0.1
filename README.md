@@ -1,6 +1,8 @@
 # Description
 
-This is a compatibility update of @iAladdin's port of NoisyTyper version 0.1. It should now work with the latest version of macOS (15.4.1 at the time of writing).
+This is a compatibility update of @iAladdin's port of NoisyTyper version 0.1 with some UI clean up.
+
+It should now work with the latest version of macOS (15.4.1 at the time of writing).
 
 # How to install
 
