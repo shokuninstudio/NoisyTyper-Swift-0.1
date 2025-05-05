@@ -42,7 +42,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         
         let menu = NSMenu()
-        menu.addItem(withTitle: "🔈", action: nil, keyEquivalent: "")
+        menu.addItem(withTitle: "Volume", action: nil, keyEquivalent: "")
         
         let soundSliderItem = NSMenuItem()
         let soundSliderView = NSSlider(frame: NSRect(x: 0, y: 0, width: 160, height: 30))
@@ -55,16 +55,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         soundSliderItem.view = soundSliderView
         menu.addItem(soundSliderItem)
         menu.addItem(NSMenuItem.separator())
-        
-        let themeMenuItem = NSMenuItem(title: "🎼", action: nil, keyEquivalent: "")
-        menu.addItem(themeMenuItem)
-        
+                
         menu.addItem(themeItem1)
         menu.addItem(themeItem2)
         menu.addItem(themeItem3)
         
         menu.addItem(NSMenuItem.separator())
-        menu.addItem(withTitle: "❌", action: #selector(exit), keyEquivalent: "")
+        menu.addItem(withTitle: "Quit", action: #selector(exit), keyEquivalent: "")
         
         self.menuItem?.menu = menu
     }
