@@ -1,24 +1,12 @@
-<p align="center" >
-  <img src="https://raw.githubusercontent.com/iAladdin/NoisyTyper-Swift/master/NoisyTyper/Assets.xcassets/AppIcon.appiconset/1024@0.25x.png" alt="NoisyTyper" title="NoisyTyper">
-</p>
+# Description
 
-# [NoisyTyper-Swift](http://ialaddin.github.io/NoisyTyper-Swift/)
-Swift Version : Create typewriter noises when typing (by Theo Watson) http://fffff.at/noisy-typer-a-typewriter-for-your-laptop/
-
-More friendly and more directly.
-
-Using Swift and native framework to implement NoisyTyper.
-
-Enjõy!
-# Download
-
-click to [download](https://github.com/iAladdin/NoisyTyper-Swift/archive/release/version-0.1.zip).
+This is a compatability update of @iAladdin's port of NoisyTyper. It should now work with the latest version of macOS (15.4.1 at the time of writing).
 
 # How to install
 
-1. [Allow applications downloaded from AnyWhere](https://support.apple.com/en-us/HT202491)
-2. [Allow NoisyTyper control your computer using accessibility feature](http://support.apple.com/kb/HT6026)
-3. Done.There is a menu item in your system status bar.
+1. Build it with Xcode or download the build and launch it.
+2. An Accessibility message will ask you to give NoisyTyper permission to recieve keystrokes (no data is sent or recieved from anywhere)
+3. You'll now see a  menu item in the status bar with three sound themes to choose from.
 
 # Contributors
 
@@ -26,6 +14,4 @@ click to [download](https://github.com/iAladdin/NoisyTyper-Swift/archive/release
   <img src="https://contributors-img.firebaseapp.com/image?repo=iAladdin/NoisyTyper-Swift" />
 </a>
 
-Made with [contributors-img](https://contributors-img.firebaseapp.com).
-
-Special thanks @shokuninstudio for the artwork and iOS sound theme, credits belongs to @shokuninstudio.
+Swift port, artwork and iOS sound theme by @shokuninstudio.
