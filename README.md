@@ -2,7 +2,7 @@
 
 This is a compatibility update of @iAladdin's NoisyTyper version 0.1 with some UI clean up.
 
-It should now work with the latest version of macOS (Sequioa 15.7.3 at the time of writing).
+It should now work with the latest version of macOS (27.0 beta 2 Golden Gate  at the time of writing).
 
 # How to install
 
